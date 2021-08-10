@@ -1,15 +1,14 @@
 import React from 'react'
-import Person1 from '../Images/person_1.jpg'
 
 function OurTeamLogo(props) {
     return (
         <div className="our-team-logo">
-                <div>
-                    <img alt="" src={Person1} />
+                <div >
+                    <img className="our-team-logo-img-item" alt="" src={props.person} />
                 </div>
                 <div>
-                    <h1>{props.logoName}</h1>
-                    <p>{props.logoWork}</p>
+                    <h1 className="our-team-logo-h1-item">{props.logoName}</h1>
+                    <p className="our-team-logo-p-item">{props.logoWork}</p>
                 </div>
 
         </div>
