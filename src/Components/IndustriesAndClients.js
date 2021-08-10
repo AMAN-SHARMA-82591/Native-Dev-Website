@@ -14,22 +14,53 @@ import LocalMallIcon from '@material-ui/icons/LocalMall';
 import CloudIcon from '@material-ui/icons/Cloud';
 import BarChartIcon from '@material-ui/icons/BarChart';
 import BusinessIcon from '@material-ui/icons/Business';
+import { NoEncryption } from '@material-ui/icons';
 
 
 export class IndustriesAndClients extends Component {
       
     render() {
-        const settings = {
+        var settings = {
           className: "center",
           infinite: true,
           centerPadding: "20px",
           slidesToShow: 4,
+          autoplay:true,
+          autoplaySpeed:3000,
+          slidesToScroll:1,
           swipeToSlide: true,
           dots:false,
           cssEase:'linear',
           prevArrow:<KeyboardArrowLeftIcon className="industies-forw-nd-back-icon" fontSize="small"  />,
-          nextArrow:<KeyboardArrowRightIcon className="industies-forw-nd-back-icon" fontSize="small" />
+          nextArrow:<KeyboardArrowRightIcon className="industies-forw-nd-back-icon" fontSize="small" />,
+          responsive:[
+            {
+              breakpoint:1250,
+              settings:{
+                slidesToShow:3
+              }
+            },
+            {
+              breakpoint:1000,
+              settings:{
+                slidesToShow:2
+              }
+            },
+            {
+              breakpoint:700,
+              settings:{
+                slidesToShow:1,
+                arrows:false
+              }
+            }
+          ]
         };
+
+
+
+
+
+
         return (
           <>
           <div className="industries-client-section">
@@ -58,19 +89,19 @@ export class IndustriesAndClients extends Component {
             <h1>Our Clients</h1>
             <Slider style={{paddingLeft:"15px"}} className="industries-sec-slider" {...settings}>
               <div className="ind-content-item-1">
-                    <img style={{width:'160px',height:'30px',padding:'17px 30px'}} className="ind-content-image-item-1" src={Client1} alt="" />
+                    <img style={{width:'65%',height:'30px',padding:'17px 20px'}} className="ind-content-image-item-1" src={Client1} alt="" />
               </div>
               <div  className="ind-content-item-1">
-                    <img  style={{width:'160px',height:'30px',padding:'17px 30px'}}  className="ind-content-image-item-1" src={Client2} alt="" />
+                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client2} alt="" />
               </div>
               <div  className="ind-content-item-1">
-                    <img  style={{width:'160px',height:'30px',padding:'17px 30px'}}  className="ind-content-image-item-1" src={Client3} alt="" />
+                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client3} alt="" />
               </div>
               <div  className="ind-content-item-1">
-                    <img  style={{width:'160px',height:'30px',padding:'17px 30px'}}  className="ind-content-image-item-1" src={Client4} alt="" />
+                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client4} alt="" />
               </div>
               <div  className="ind-content-item-1">
-                    <img  style={{width:'160px',height:'30px',padding:'17px 30px'}}  className="ind-content-image-item-1" src={Client5} alt="" />
+                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client5} alt="" />
               </div>
             
             </Slider>

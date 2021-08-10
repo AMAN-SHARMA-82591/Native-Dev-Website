@@ -11,7 +11,7 @@ function LatestBlogsComp(props) {
                          
                     </div>
                     <div  className="latest-blogs-arrow-right">
-                         <ArrowRightAltIcon style={{color:'grey'}} fontSize="large"/>
+                         <ArrowRightAltIcon style={{color:'#24658d'}} fontSize="large"/>
                     </div>
 
         </div>

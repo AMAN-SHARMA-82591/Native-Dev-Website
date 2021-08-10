@@ -13,26 +13,29 @@ import Person9 from '../Images/team-6.jpg'
 function OurTeam() {
     return (
         <div className="our-team-main-section">
-                        <h1 className="our-team-logo-name">Our Team</h1>
-            <div className="our-team-logo-section">
-                <div>
-                    <OurTeamLogo person={Person1} className="our-team-logo-work" logoName="Margin" logoWork="Co-Founder and Partner" />
-                    <OurTeamLogo person={Person2} className="our-team-logo-work" logoName="Sean" logoWork="Seior Developer" />
-                </div>
-                <div>
-                    <OurTeamLogo person={Person4} className="our-team-logo-work" logoName="Milena" logoWork="Co-Founder and Partner" />
-                    <OurTeamLogo person={Person5} className="our-team-logo-work" logoName="Kathryn" logoWork="Web Developer/Web Front End Developer" />
-                </div>
-                <div>
-                    <OurTeamLogo person={Person6} className="our-team-logo-work" logoName="Ryan" logoWork="Business Development" />
-                    <OurTeamLogo person={Person3} className="our-team-logo-work" logoName="Azeem" logoWork="Copywriter" />
-                </div>
-                <div>
-                    <OurTeamLogo person={Person8} className="our-team-logo-work" logoName="Julia" logoWork="Product Designer" />
-                    <OurTeamLogo person={Person7} className="our-team-logo-work" logoName="Vasili Savitski" logoWork="Senior Designer" />
-                    <OurTeamLogo person={Person9} className="our-team-logo-work" logoName="Nani" logoWork="Front End Web" />
+                <h1 className="our-team-logo-name">Our Team</h1>
+             <div className="responsive-our-team-sec">
+                <div className="our-team-logo-section">
+                    <div>
+                        <OurTeamLogo person={Person1} className="our-team-logo-work" logoName="Margin" logoWork="Co-Founder and Partner" />
+                        <OurTeamLogo person={Person2} className="our-team-logo-work" logoName="Sean" logoWork="Seior Developer" />
+                    </div>
+                    <div>
+                        <OurTeamLogo person={Person4} className="our-team-logo-work" logoName="Milena" logoWork="Co-Founder and Partner" />
+                        <OurTeamLogo person={Person5} className="our-team-logo-work" logoName="Kathryn" logoWork="Web Developer/Web Front End Developer" />
+                    </div>
+                    <div>
+                        <OurTeamLogo person={Person6} className="our-team-logo-work" logoName="Ryan" logoWork="Business Development" />
+                        <OurTeamLogo person={Person3} className="our-team-logo-work" logoName="Azeem" logoWork="Copywriter" />
+                    </div>
+                    <div>
+                        <OurTeamLogo person={Person8} className="our-team-logo-work" logoName="Julia" logoWork="Product Designer" />
+                        <OurTeamLogo person={Person7} className="our-team-logo-work" logoName="Vasili Savitski" logoWork="Senior Designer" />
+                        <OurTeamLogo person={Person9} className="our-team-logo-work" logoName="Nani" logoWork="Front End Web" />
+                    </div>
                 </div>
             </div>
+        
         </div>
     )
 }

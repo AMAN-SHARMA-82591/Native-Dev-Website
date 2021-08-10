@@ -3,6 +3,296 @@
         max-width:95%;
     }
 }
+
+@media screen and (max-width:1350px){
+    /* what we do */
+    /* latest blogs */
+}
+@media screen and (max-width:1250px){
+    /* our clients */
+    .responsive-display{
+        width:100%;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:1210px){
+    .what-we-do-main-component{
+        width:190px;
+        height:200px;
+        padding:20px 40px 20px 15px;
+    }
+    .what-we-do-image img{
+        width:40px;
+        height:40px;
+      }
+      .what-we-do-h1 h1{
+        font-size:15px;
+        width:100%;        
+      }
+      .what-we-do-p p{
+          font-size:12px;
+          line-height:1rem;
+          width:100%;
+      }
+      .what-we-do-responsive{
+          max-width:800px;
+          padding-right:5px;
+      }
+      .what-we-do-main-h1,.our-team-logo-name,.latest-blogs-main-h1,.Industries-client-section-2>h1{
+        font-size:40px;
+      }
+      .what-we-do-main-h1::after,.our-team-logo-name::after,.latest-blogs-main-h1::after,.Industries-client-section-2>h1::after{
+            width:10%;
+      }
+      .industries-client-section>h1{
+          font-size:40px;
+      }
+      .industries-client-section>h1::after{
+          top:42px;
+          width:25%;
+      }
+}
+@media screen and (max-width:1175px){
+  
+    .our-team-logo-img-item{
+        width:130px;
+        height:130px;
+    }
+}
+@media screen and (max-width:1120px){
+    .latest-blogs-section-main{
+        max-width:920px;
+    }
+    .latest-blogs-content-section{
+        width:270px;
+        height:380px;
+        margin:40px 20px;
+    }
+    .latest-blogs-arrow-right{
+        bottom:10px;
+        left:21px;
+    }
+    .footer-section{
+        max-width:95%;
+    }
+   .footer-cont-sec-2{
+       width:250px;
+   }
+   .footer-cont-sec-2>div>ul>li>p{
+       width:82%;
+   }
+}
+
+@media screen and (max-width:1050px){
+    /* our team */
+    .industries-client-section{
+        max-width:70%;
+    }
+    .footer-cont-sec-2{
+        width:250px;
+    }
+  
+
+}
+@media screen and (max-width:1000px){
+    .header-sec-cont-item1{
+        left:60px;
+    }
+    .header-sec-item-1-h1{
+            line-height:3rem;
+            font-size:40px;
+            width:300px;
+    }
+    .header-sec-item-1-p{
+        font-size:18px;
+        width:400px;
+        line-height:1.6rem;
+    }
+    .our-team-logo{
+        margin:20px 0px 20px 0px ;
+    }
+  
+    /* industries */
+
+}
+@media screen and (max-width:920px){
+    .footer-cont-sec-2{
+        width:200px;
+    }
+}
 @media screen and (max-width:850px){
-    
+    .navbar-button-sec{
+        /* display:none; */
+    }
+    .responsive-header-button{
+        display:block;
+        cursor:pointer;
+    }
+    .navbar-list-items-sec ul{
+        /* display:none; */
+        display:block;
+        text-align: center;
+        width:20%;
+        margin:0px auto;
+        padding:0px;
+    }
+    .list-items{
+        padding:20px 0px 0px 0px;
+        color:white;
+        margin:25px 0px;
+    }
+    .list-items.active{
+        color:rgb(180, 123, 54);
+    }
+    .responsive-display{
+        padding-top:60px;
+        display:block;
+        right:0;
+        padding-bottom:50px;
+        text-align:center;
+        background:rgba(14, 12, 12, 0.842);
+        position:absolute;
+        top:0px;
+    }
+    .navbar-btn-item{
+        width:81px;
+        margin:100px auto 0px auto;
+    }
+   .header-main-image{
+       height:600px;
+   }
+   .header-sec-cont-item2{
+       bottom:20px;
+   }
+   .what-we-do-items-container{
+       display:block;
+       width:100%;
+       margin:0px auto;
+   }
+   .what-we-do-items-container>div{
+       display:flex;
+       flex-wrap: wrap;
+   }
+   .what-we-do-responsive{
+       width:100%;
+       margin:70px auto 0px auto;
+   }
+   .what-we-do-main-h1,.our-team-logo-name,.latest-blogs-main-h1,.Industries-client-section-2>h1{
+    text-align:left;
+    margin:15px auto;
+    width:250px;
+    }
+    .what-we-do-main-h1::after,.our-team-logo-name::after,.latest-blogs-main-h1::after,.Industries-client-section-2>h1::after{
+        width:50%;
+    }
+    .industries-client-section>h1{
+        margin:40px auto;
+        width:320px;
+    }
+    .industries-client-section>h1::after{
+        width:35%;
+    }
+    .our-team-logo{
+        width:170px;
+    }
+    .our-team-logo-img-item{
+        width:100px;
+        height:100px;
+    }
+    .our-team-logo-h1-item{
+        font-size:12px;
+    }
+    .our-team-logo-p-item{
+        font-size:10px;
+    }
+
+}
+@media screen and (max-width:835px){
+    .what-we-do-responsive{
+        max-width:530px;
+    }
+    .footer-section{
+        flex-wrap:wrap;
+    }
+    .footer-cont-sec-1,.footer-cont-sec-2{
+        padding:0px 50px;
+        margin:20px auto;
+    }
+}
+@media screen and (max-width:660px){
+    .our-team-logo-section{
+        display:block;
+        margin-top:40px;
+    }
+    .our-team-logo{
+        width:250px;
+        margin:50px 0px;
+    }
+    .our-team-logo-img-item{
+        width:180px;
+        height:180px;
+    }
+    .our-team-logo-h1-item{
+        font-size:17px;
+    }
+    .our-team-logo-p-item{
+        font-size:15px;
+    }
+    .our-team-logo-section>div:nth-child(n){
+        margin-top:0px;
+      }
+      .our-team-logo-section>div:nth-child(2n){
+        margin-top:0px;
+      }
+      .our-team-logo-section>div:last-child{
+        margin-top:0px;
+      }
+      .subscribe-main-section{
+          max-width:95%;
+      }
+}
+@media screen and (max-width:600px){
+    .header-sec-cont-item1{
+        top:180px;
+        left:20px;
+    }
+    .header-sec-item-1-h1{
+        line-height:2rem;
+        font-size:30px;
+        width:250px;
+    }
+    .header-sec-item-1-p{
+        font-size:15px;
+        width:300px;
+        line-height:1.6rem;
+    }
+    .header-sec-item-1-button{
+        padding:13px 20px;
+        font-size:10px;
+    }
+}
+@media screen and (max-width:570px){
+    .what-we-do-responsive{
+        max-width:260px;
+    }
+    .industries-client-section>h1{
+        font-size:28px;
+        width:200px;
+    }
+    .industries-client-section>h1::after{
+        width:40%;
+        top:30px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .navbar-list-items-sec ul{
+        width:40%;
+    }
+    .subscribe-item-cont-h1{
+        font-size:27px;
+    }
+    .subscribe-sec-cont-item-2>button{
+        padding:3px 11px;
+    }
 }
