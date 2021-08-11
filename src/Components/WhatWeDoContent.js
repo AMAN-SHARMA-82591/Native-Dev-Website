@@ -5,7 +5,7 @@ function WhatWeDoContent(props) {
     return (
         <div className="what-we-do-main-component">
                     <div className="what-we-do-image">
-                        <img alt="" src={BarChart} />
+                        <img alt="" src={props.socialImage} />
                     </div>
                     <div className="what-we-do-h1">
                         <h1>
@@ -16,7 +16,7 @@ function WhatWeDoContent(props) {
                             <p>
                                 {props.socialTextp}
                             </p>
-                            <ArrowRightAltIcon fontSize="large" />
+                            <ArrowRightAltIcon style={{cursor:'pointer'}} fontSize="large" />
                     </div>
         </div>  
     )

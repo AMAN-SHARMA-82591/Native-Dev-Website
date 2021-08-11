@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 
 function LatestBlogsComp(props) {
+    
     return (
         <div className="latest-blogs-content-section">
                     <img  className="latest-blogs-cont-item-img" alt="" src={props.latestBlogsImg} />

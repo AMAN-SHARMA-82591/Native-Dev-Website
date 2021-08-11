@@ -88,20 +88,20 @@ export class IndustriesAndClients extends Component {
         <div className="industries-client-section" >
             <h1>Our Clients</h1>
             <Slider style={{paddingLeft:"15px"}} className="industries-sec-slider" {...settings}>
-              <div className="ind-content-item-1">
-                    <img style={{width:'65%',height:'30px',padding:'17px 20px'}} className="ind-content-image-item-1" src={Client1} alt="" />
+              <div className="ind-content-item-1 client">
+                    <img className="ind-content-image-item-1" src={Client1} alt="" />
               </div>
-              <div  className="ind-content-item-1">
-                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client2} alt="" />
+              <div  className="ind-content-item-1 client">
+                    <img  className="ind-content-image-item-1" src={Client2} alt="" />
               </div>
-              <div  className="ind-content-item-1">
-                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client3} alt="" />
+              <div  className="ind-content-item-1 client">
+                    <img   className="ind-content-image-item-1" src={Client3} alt="" />
               </div>
-              <div  className="ind-content-item-1">
-                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client4} alt="" />
+              <div  className="ind-content-item-1 client">
+                    <img  className="ind-content-image-item-1" src={Client4} alt="" />
               </div>
-              <div  className="ind-content-item-1">
-                    <img  style={{width:'65%',height:'30px',padding:'17px 20px'}}  className="ind-content-image-item-1" src={Client5} alt="" />
+              <div  className="ind-content-item-1 client">
+                    <img   className="ind-content-image-item-1" src={Client5} alt="" />
               </div>
             
             </Slider>
