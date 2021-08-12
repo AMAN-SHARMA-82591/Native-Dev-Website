@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 function Subscribe() {
     let [newValue,setValue] = useState('')

@@ -25,6 +25,7 @@ export class IndustriesAndClients extends Component {
           centerPadding: "20px",
           slidesToShow: 4,
           autoplay:true,
+          slideCount:null,
           autoplaySpeed:3000,
           slidesToScroll:1,
           swipeToSlide: true,

@@ -17,9 +17,6 @@ function NavBar() {
             document.removeEventListener('mousedown',handler)
         }
     })
-    setTimeout(() =>{
-        console.log('hello')
-    },3000)
 
     return (
         <div ref={menuRef} className="navbar-section-contents">
@@ -37,7 +34,7 @@ function NavBar() {
                         </ul>
                     </div>
                     <div className="navbar-button-sec">
-                            <buttom className="navbar-btn-item"><InputIcon style={{fontSize:13,paddingRight:"15px"}} /> Log in </buttom>
+                            <button className="navbar-btn-item"><InputIcon style={{fontSize:13,paddingRight:"15px"}} /> Log in </button>
                           
                     </div>
 

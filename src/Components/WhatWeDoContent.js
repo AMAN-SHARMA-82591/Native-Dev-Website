@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react'
-import BarChart from '../Images/bar-chart.png'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import Aos from 'aos';
 function WhatWeDoContent(props) {
