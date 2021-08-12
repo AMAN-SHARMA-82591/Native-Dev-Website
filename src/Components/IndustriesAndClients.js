@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"; 
+import '../App.css'
 import "slick-carousel/slick/slick-theme.css";
 import Client1 from '../Images/client-logo-1.png'
 import Client2 from '../Images/client-logo-2.png'

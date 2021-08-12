@@ -1,5 +1,7 @@
 import React,{useEffect} from 'react'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import '../App.css'
+
 import Aos from 'aos';
 function WhatWeDoContent(props) {
     useEffect(() =>{

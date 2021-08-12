@@ -5,6 +5,7 @@ import Website from '../Images/website-logo.png'
 import Engine from '../Images/egine-logo.png'
 import Person from '../Images/person-logo.png'
 import Report from '../Images/report-logo.png'
+import '../App.css'
 import Speaker from '../Images/speaker-logo.png'
 
 function WhatWeDo() {

@@ -1,5 +1,6 @@
 import React from 'react'
 import LatestBlogsComp from './LatestBlogsComp'
+import '../App.css'
 import LatestImg1 from '../Images/phone-image.jpg'
 import LatestImg2 from '../Images/laptop-image.png'
 import LatestImg3 from '../Images/zoo-image.jpg'

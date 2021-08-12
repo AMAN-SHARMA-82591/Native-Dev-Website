@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react'
+import '../App.css'
+
 import AOS from 'aos'
 function OurTeamLogo(props) {
     useEffect(() =>{
