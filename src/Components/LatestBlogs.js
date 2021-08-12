@@ -15,7 +15,7 @@ function LatestBlogs() {
 
                         <LatestBlogsComp delay="200" duration="1000" latestBlogsImg={LatestImg1} latestBlogsH1="Facebook's News Feed Changes | How Will It Affect Marketers?" latestBlogsP="With a past that caused social media marketers to sit up and pay attention, Facebook CEO, Mark Zuckerberg, recently announced..."/>
 
-                        <LatestBlogsComp delay="350" duration="1000" latestBlogsImg={LatestImg3} latestBlogsH1="A Day At The Google Zoo | The Google Algorithm Animals" latestBlogsP="Well, there may not actually be a Google zoo (yet!), but there is a coteris of animals feature Google..."/>
+                        <LatestBlogsComp delay="300" duration="1000" latestBlogsImg={LatestImg3} latestBlogsH1="A Day At The Google Zoo | The Google Algorithm Animals" latestBlogsP="Well, there may not actually be a Google zoo (yet!), but there is a coteris of animals feature Google..."/>
                     </div>
         
             </div>

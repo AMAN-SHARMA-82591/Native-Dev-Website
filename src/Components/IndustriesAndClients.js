@@ -14,7 +14,6 @@ import LocalMallIcon from '@material-ui/icons/LocalMall';
 import CloudIcon from '@material-ui/icons/Cloud';
 import BarChartIcon from '@material-ui/icons/BarChart';
 import BusinessIcon from '@material-ui/icons/Business';
-import { NoEncryption } from '@material-ui/icons';
 
 
 export class IndustriesAndClients extends Component {
