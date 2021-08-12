@@ -130,6 +130,7 @@
 .header-sec-cont-item2{
   position:absolute;
   bottom:-120px;
+  overflow:hidden;
   right:0;
   background:rgb(248, 246, 236);
   padding:0px 10px;
@@ -167,6 +168,7 @@
   transition-property:box-shadow ;
   transition-timing-function: ease-in-out ;
   transition-duration: 0.3s;
+  position:relative;
 }
 .what-we-do-main-component:hover{
   box-shadow:2px 2px 10px 2px grey;
@@ -190,6 +192,12 @@
   letter-spacing:1px;
   margin-bottom:5px;
   color:#24464e;
+}
+.what-we-do-arrow-btn{
+  cursor:pointer;
+  position:absolute;
+  bottom:20px;
+  left:33px;
 }
 .what-we-do-responsive{
   max-width:1150px;
@@ -527,6 +535,7 @@
   border:2px solid rgba(207,155,134,255);
   color:#032e3d;
   padding:10px;
+  cursor:pointer;
   border-radius:50%;
 }
 .footer-cont-sec-2{

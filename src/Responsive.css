@@ -155,19 +155,28 @@
         color:rgb(180, 123, 54);
     }
     .responsive-display.button{
-        display:none;
+        transform: translateY(-100%);
+        opacity:0;
+        
     }
     .responsive-display{
         padding-top:60px;
-        display:block;
+        transform: translateY(0px);
         right:0;
+        opacity:1;
         width:100%;
         max-width:100%;
+        display:block;
+        opacity:1;
         padding-bottom:50px;
         text-align:center;
         background:rgba(14, 12, 12, 0.904);
         position:absolute;
         top:0px;
+        transition-property:transform,opacity;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+
     }
     .navbar-btn-item{
         width:81px;

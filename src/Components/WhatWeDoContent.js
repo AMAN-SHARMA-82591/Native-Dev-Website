@@ -1,9 +1,18 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import BarChart from '../Images/bar-chart.png'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import Aos from 'aos';
 function WhatWeDoContent(props) {
+    useEffect(() =>{
+        Aos.init({
+            duration:1000,
+            offset:30,
+            easing:'ease-out',
+            delay:50
+        })
+    })
     return (
-        <div className="what-we-do-main-component">
+        <div data-aos="slide-up" className="what-we-do-main-component">
                     <div className="what-we-do-image">
                         <img alt="" src={props.socialImage} />
                     </div>
@@ -16,7 +25,7 @@ function WhatWeDoContent(props) {
                             <p>
                                 {props.socialTextp}
                             </p>
-                            <ArrowRightAltIcon style={{cursor:'pointer'}} fontSize="large" />
+                            <ArrowRightAltIcon className="what-we-do-arrow-btn" fontSize="large" />
                     </div>
         </div>  
     )

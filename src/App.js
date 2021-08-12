@@ -1,10 +1,12 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './Responsive.css'
+import 'aos/dist/aos.css'
 import Header from './Components/Header';
 import NavBar from './Components/NavBar';
+import AOS from 'aos';
 import WhatWeDo from './Components/WhatWeDo';
 import IndustriesAndClients from './Components/IndustriesAndClients';
 import OurTeam from './Components/OurTeam';
@@ -14,6 +16,12 @@ import Footer from './Components/Footer';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration:1000,
+      
+    });
+  }, []);
   return (
       <div className="App">
         <NavBar />

@@ -9,9 +9,9 @@ import CallIcon from '@material-ui/icons/Call';
 
 function Footer() {
     return (
-        <div style={{background:"#ffe4e0"}}>
-            <div className="footer-section">
-                    <div className="footer-cont-sec-1">
+        <div style={{overflow:"hidden",background:"#ffe4e0"}}>
+            <div  className="footer-section">
+                    <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="50" className="footer-cont-sec-1">
                         <img src={Logo} alt="" />
                         <div>
                             <p>
@@ -23,7 +23,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="footer-cont-sec-2">
+                    <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="100" className="footer-cont-sec-2">
                             <h1>About</h1>
                             <div>
                                 <ul>
@@ -34,17 +34,17 @@ function Footer() {
                                 </ul>
                             </div>
                     </div>
-                    <div className="footer-cont-sec-2">
-                    <h1>Contact Us</h1>
-                    <div>
-                        <ul>
-                            <li><LocationOnIcon  style={{color:"#1a2f40",padding:"5px 15px 0px 0px"}}/> <p> 3729 Southern Avenue Des Moines, IA 50309</p> </li>
-                            <li><EmailIcon style={{color:"#1a2f40",padding:"2px 15px 0px 0px"}} /> <p>info@heylead.com </p> </li>
-                            <li><CallIcon  style={{color:"#1a2f40",padding:"3px 15px 0px 0px"}}/> <p>(415) 857-5323 </p>  </li>
-                        </ul>
-                    </div>
+                    <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="150" className="footer-cont-sec-2">
+                        <h1>Contact Us</h1>
+                        <div>
+                            <ul>
+                                <li><LocationOnIcon  style={{color:"#1a2f40",padding:"5px 15px 0px 0px"}}/> <p> 3729 Southern Avenue Des Moines, IA 50309</p> </li>
+                                <li><EmailIcon style={{color:"#1a2f40",padding:"2px 15px 0px 0px"}} /> <p>info@heylead.com </p> </li>
+                                <li><CallIcon  style={{color:"#1a2f40",padding:"3px 15px 0px 0px"}}/> <p>(415) 857-5323 </p>  </li>
+                            </ul>
+                        </div>
 
-                </div>
+                    </div>
             </div>
         </div>
     )

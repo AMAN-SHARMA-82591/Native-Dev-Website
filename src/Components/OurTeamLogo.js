@@ -1,8 +1,15 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import AOS from 'aos'
 function OurTeamLogo(props) {
+    useEffect(() =>{
+        AOS.init({
+            duration:1000,
+            easing:'ease',
+            offset:50,
+        })
+    })
     return (
-        <div className="our-team-logo">
+        <div data-aos="slide-up" className="our-team-logo">
                 <div >
                     <img className="our-team-logo-img-item" alt="" src={props.person} />
                 </div>

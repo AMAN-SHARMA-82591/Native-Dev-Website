@@ -1,10 +1,14 @@
 import React,{useEffect} from 'react'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function LatestBlogsComp(props) {
-    
+    useEffect(() =>{
+        AOS.init()
+})
     return (
-        <div className="latest-blogs-content-section">
+        <div data-aos="slide-up" data-aos-delay={props.delay}  data-aos-duration={props.duration} className="latest-blogs-content-section">
                     <img  className="latest-blogs-cont-item-img" alt="" src={props.latestBlogsImg} />
                     <div>
                         <h1 className="latest-blogs-cont-item-h1">{props.latestBlogsH1}</h1>
