@@ -66,7 +66,7 @@ export class IndustriesAndClients extends Component {
           <>
           <div className="industries-client-section">
             <h1>Industries we've worked with</h1>
-            <Slider style={{paddingLeft:"15px"}} className="industries-sec-slider" {...settings}>
+            <Slider style={{paddingLeft:"15px"}}  {...settings}>
               <div className="ind-content-item-1">
                 <h3><HomeIcon className="ind-button-logo-item-1" /> Real Estate</h3>
               </div>
