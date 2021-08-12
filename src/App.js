@@ -27,7 +27,7 @@ function App() {
         <NavBar />
         <Header />
         <WhatWeDo />
-        {/* <IndustriesAndClients /> */}
+        <IndustriesAndClients />
         <OurTeam />
         <LatestBlogs />
         <Subscribe />
