@@ -2,7 +2,6 @@ import React from 'react'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import '../App.css'
 
-import Aos from 'aos';
 function WhatWeDoContent(props) {
     return (
         <div  className="what-we-do-main-component">
