@@ -12,7 +12,7 @@ function Footer() {
     return (
         <div style={{overflow:"hidden",background:"#ffe4e0"}}>
             <div  className="footer-section">
-                    <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="50" className="footer-cont-sec-1">
+                    <div className="footer-cont-sec-1">
                         <img src={Logo} alt="" />
                         <div>
                             <p>
@@ -24,7 +24,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="100" className="footer-cont-sec-2">
+                    <div  className="footer-cont-sec-2">
                             <h1>About</h1>
                             <div>
                                 <ul>
@@ -35,7 +35,7 @@ function Footer() {
                                 </ul>
                             </div>
                     </div>
-                    <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="150" className="footer-cont-sec-2">
+                    <div className="footer-cont-sec-2">
                         <h1>Contact Us</h1>
                         <div>
                             <ul>

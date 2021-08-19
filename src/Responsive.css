@@ -136,7 +136,6 @@
 }
 
 @media screen and (max-width:850px){
-    
     .responsive-header-button{
         display:block;
         cursor:pointer;
@@ -182,7 +181,6 @@
 
     }
     .navbar-btn-item{
-        width:81px;
         margin:10% auto 0px auto;
     }
    .header-main-image{

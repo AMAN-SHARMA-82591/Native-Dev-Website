@@ -3,7 +3,6 @@ import './App.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './Responsive.css'
-import 'aos/dist/aos.css'
 import Header from './Components/Header';
 import NavBar from './Components/NavBar';
 import AOS from 'aos';
