@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/css/main.d69dcede.chunk.css",
-    "main.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/main.7d367707.chunk.js",
-    "main.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/main.7d367707.chunk.js.map",
-    "runtime-main.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/runtime-main.5c287763.js",
-    "runtime-main.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/runtime-main.5c287763.js.map",
+    "main.css": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/css/main.6a7de5d8.chunk.css",
+    "main.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/main.024828ae.chunk.js",
+    "main.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/main.024828ae.chunk.js.map",
+    "runtime-main.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/runtime-main.2cbe3ac9.js",
+    "runtime-main.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/runtime-main.2cbe3ac9.js.map",
     "static/css/2.b6adb778.chunk.css": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/css/2.b6adb778.chunk.css",
-    "static/js/2.107c74d1.chunk.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/2.107c74d1.chunk.js",
-    "static/js/2.107c74d1.chunk.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/2.107c74d1.chunk.js.map",
-    "static/js/3.29745c54.chunk.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/3.29745c54.chunk.js",
-    "static/js/3.29745c54.chunk.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/3.29745c54.chunk.js.map",
+    "static/js/2.2845585d.chunk.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/2.2845585d.chunk.js",
+    "static/js/2.2845585d.chunk.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/2.2845585d.chunk.js.map",
+    "static/js/3.8a48007c.chunk.js": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/3.8a48007c.chunk.js",
+    "static/js/3.8a48007c.chunk.js.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/3.8a48007c.chunk.js.map",
     "index.html": "/AMAN-SHARMA-82591/Native-Dev-Website.git/index.html",
     "static/css/2.b6adb778.chunk.css.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/css/2.b6adb778.chunk.css.map",
-    "static/css/main.d69dcede.chunk.css.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/css/main.d69dcede.chunk.css.map",
-    "static/js/2.107c74d1.chunk.js.LICENSE.txt": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/2.107c74d1.chunk.js.LICENSE.txt",
+    "static/css/main.6a7de5d8.chunk.css.map": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/css/main.6a7de5d8.chunk.css.map",
+    "static/js/2.2845585d.chunk.js.LICENSE.txt": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/js/2.2845585d.chunk.js.LICENSE.txt",
     "static/media/client-logo-1.32446209.png": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/media/client-logo-1.32446209.png",
     "static/media/google-ads.02b4aa18.png": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/media/google-ads.02b4aa18.png",
     "static/media/laptop-image.b58da3f4.png": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/media/laptop-image.b58da3f4.png",
@@ -33,10 +33,10 @@
     "static/media/zoo-image.85e6e44d.jpg": "/AMAN-SHARMA-82591/Native-Dev-Website.git/static/media/zoo-image.85e6e44d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c287763.js",
+    "static/js/runtime-main.2cbe3ac9.js",
     "static/css/2.b6adb778.chunk.css",
-    "static/js/2.107c74d1.chunk.js",
-    "static/css/main.d69dcede.chunk.css",
-    "static/js/main.7d367707.chunk.js"
+    "static/js/2.2845585d.chunk.js",
+    "static/css/main.6a7de5d8.chunk.css",
+    "static/js/main.024828ae.chunk.js"
   ]
 }
